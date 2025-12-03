@@ -25,6 +25,14 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "plugins": ["expo-router", "expo-web-browser"]
+    "plugins": [
+      "expo-router",
+      "expo-web-browser",
+      "expo-charts",
+      {
+        "androidMinSdkVersion": 21,
+        "iosDeploymentTarget": "13.0"
+      }
+    ]
   }
 }
